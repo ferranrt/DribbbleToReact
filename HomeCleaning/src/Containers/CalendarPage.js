@@ -1,8 +1,8 @@
 import React from 'react';
 import Icons from 'react-native-vector-icons/Ionicons';
+import { ScrollView } from 'react-native-gesture-handler';
 import { Block, Typography, Divider } from '../Components';
 import Theme from '../Theme/Theme';
-import { ScrollView } from 'react-native-gesture-handler';
 
 export default function CalendarPage() {
   const days = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
