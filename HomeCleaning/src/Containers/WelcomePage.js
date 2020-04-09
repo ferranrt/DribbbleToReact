@@ -3,13 +3,14 @@ import { Image } from 'react-native';
 import { Block, Typography, Button } from '../Components';
 import WelcomeImage from '../Assets/Images/Welcome.png';
 
-export default function WelcomePage() {
+export default function WelcomePage(props) {
+  const { navigation } = props;
   return (
     <Block primary block bottom padding={0} margin={0}>
-      <Typography margin={[10, 0]} bold h1 center white>
+      <Typography margin={[5, 0]} bold h2 center white>
         Clean Home
       </Typography>
-      <Typography margin={[10, 0]} bold h1 center white>
+      <Typography margin={[5, 0]} bold h2 center white>
         Clean Life.
       </Typography>
       <Typography padding={[10, 40]} h4 center white>
@@ -31,7 +32,8 @@ export default function WelcomePage() {
         <Block block primary />
         <Block block>
           <Button
-            padding={20}
+            onPress={() => navigation.navigate('Demand')}
+            padding={10}
             white
             style={{
               borderRadius: 0,

@@ -5,7 +5,8 @@ import Cod from '../Assets/Images/Cod.png';
 import Theme from '../Theme/Theme';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-export default function OnDemandPage() {
+export default function OnDemandPage(props) {
+  const { navigation } = props;
   const NEXT_SIZE = 30;
   return (
     <Block block bottom style={{ backgroundColor: 'white' }}>
@@ -30,14 +31,14 @@ export default function OnDemandPage() {
         </Typography>
         <Block row>
           <Block center middle block>
-            <Button>
+            <Button onPress={() => navigation.goBack()}>
               <Typography bold small white>
                 Skip
               </Typography>
             </Button>
           </Block>
           <Block block>
-            <Button>
+            <Button onPress={() => navigation.navigate('Profile')}>
               <Typography margin={[0, 10]} small bold white>
                 Next
               </Typography>

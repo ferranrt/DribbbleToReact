@@ -24,7 +24,7 @@ export default function CalendarPage() {
       money: 245,
     },
     {
-      name: 'Alexandra Johnson',
+      name: 'Alexandra Johnsons',
       task: 'Upkeep Cleaning',
       timeStart: '12AM',
       timeEnd: '1PM',
@@ -32,12 +32,12 @@ export default function CalendarPage() {
       money: 245,
     },
   ];
-  const renderDays = offset => {
+  const renderDays = (offset) => {
     const output = [];
     const ndays = 7;
     for (let i = 0; i < ndays; i += 1) {
       output.push(
-        <Block>
+        <Block key={i}>
           <Typography white center>
             {days[(i + offset) % 7]}
           </Typography>
@@ -68,11 +68,19 @@ export default function CalendarPage() {
         Cleaner Calendar
       </Typography>
       <Block center middle row>
-        <Icons name="ios-arrow-back" color={Theme.colors.WHITE} size={20} />
+        <Icons
+          name="ios-arrow-back"
+          color={Theme.colors.WHITE.hex()}
+          size={20}
+        />
         <Typography margin={[0, 30]} white light>
           15-21 April 2019
         </Typography>
-        <Icons name="ios-arrow-forward" color={Theme.colors.WHITE} size={20} />
+        <Icons
+          name="ios-arrow-forward"
+          color={Theme.colors.WHITE.hex()}
+          size={20}
+        />
       </Block>
       <Block margin={[10, 0]} row center middle>
         {renderDays(11)}
@@ -89,8 +97,8 @@ export default function CalendarPage() {
         {/* Events */}
         <Block column style={{ maxHeight: Theme.device.y * 0.5 }}>
           <ScrollView>
-            {events.map(item => (
-              <Block row margin={[10, 0]}>
+            {events.map((item) => (
+              <Block key={item.name} row margin={[10, 0]}>
                 <Block block>
                   <Typography bold dark center>
                     {item.timeStart}
@@ -104,7 +112,7 @@ export default function CalendarPage() {
                   <Block row margin={[5, 0]}>
                     <Icons
                       name="md-time"
-                      color={Theme.colors.PRIMARY}
+                      color={Theme.colors.PRIMARY.hex()}
                       size={30}
                       style={{ marginHorizontal: 10 }}
                     />
@@ -118,17 +126,17 @@ export default function CalendarPage() {
                     </Typography>
                     <Icons
                       name="ios-star"
-                      color={Theme.colors.DARKGREY}
+                      color={Theme.colors.DARKGREY.hex()}
                       size={20}
                     />
                     <Icons
                       name="ios-star"
-                      color={Theme.colors.DARKGREY}
+                      color={Theme.colors.DARKGREY.hex()}
                       size={20}
                     />
                     <Icons
                       name="ios-star"
-                      color={Theme.colors.DARKGREY}
+                      color={Theme.colors.DARKGREY.hex()}
                       size={20}
                     />
                   </Block>
@@ -137,13 +145,13 @@ export default function CalendarPage() {
                     <Block row block>
                       <Icons
                         name="ios-call"
-                        color={Theme.colors.PRIMARY}
+                        color={Theme.colors.PRIMARY.hex()}
                         size={35}
                         style={{ marginHorizontal: 10 }}
                       />
                       <Icons
                         name="ios-mail"
-                        color={Theme.colors.PRIMARY}
+                        color={Theme.colors.PRIMARY.hex()}
                         size={35}
                         style={{ marginHorizontal: 10 }}
                       />

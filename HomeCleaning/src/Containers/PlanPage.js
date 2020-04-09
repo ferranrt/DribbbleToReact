@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Block, Typography, Button } from '../Components';
 import Theme from '../Theme/Theme';
 
+const EXTRAS_INITIAL = [
+  { name: 'Inside Fridge', icon: 'fridge', status: false },
+  { name: 'Organizing', icon: 'buffer', status: false },
+  { name: 'Small Blinds', icon: 'fridge', status: false },
+  { name: 'Patio', icon: 'cactus', status: false },
+  { name: 'Big Blinds', icon: 'window-closed', status: false },
+  { name: 'Kitchen', icon: 'fridge', status: false },
+];
+
 export default function PlanPage() {
-  const extras = [
-    { name: 'Inside Fridge', icon: 'fridge' },
-    { name: 'Organizing', icon: 'buffer' },
-    { name: 'Small Blinds', icon: 'fridge' },
-    { name: 'Patio', icon: 'cactus' },
-    { name: 'Big Blinds', icon: 'window-closed' },
-    { name: 'Kitchen', icon: 'fridge' },
-  ];
+  const [extras, setExtras] = useState(EXTRAS_INITIAL);
+  const toggleItem = index => {
+    const aux = JSON.parse(JSON.stringify(extras));
+    aux[index].status = !aux[index].status;
+    setExtras(aux);
+  };
   return (
     <Block primary block bottom>
       <Typography margin={[10, 0]} white center bold h4>
@@ -54,22 +61,26 @@ export default function PlanPage() {
             Selected Extras
           </Typography>
           <Block center middle row wrap space="around">
-            {extras.map(item => (
-              <Block margin={[5, 10]}>
-                <Block>
+            {extras.map((item, index) => (
+              <Block key={item.name} margin={[5, 10]}>
+                <Button onPress={() => toggleItem(index)}>
                   <Icons
                     name={item.icon}
                     color="white"
                     size={45}
-                    style={{
-                      backgroundColor: Theme.colors.PRIMARY,
-                      borderRadius: 60,
-                      justifyContent: 'center',
-                      alignSelf: 'center',
-                      padding: 20,
-                    }}
+                    style={[
+                      {
+                        borderRadius: 60,
+                        justifyContent: 'center',
+                        alignSelf: 'center',
+                        padding: 20,
+                      },
+                      item.status
+                        ? { backgroundColor: Theme.colors.INFO }
+                        : { backgroundColor: Theme.colors.PRIMARY },
+                    ]}
                   />
-                </Block>
+                </Button>
                 <Typography center small bold>
                   {item.name}
                 </Typography>

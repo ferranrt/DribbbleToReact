@@ -7,12 +7,23 @@ import { Block, Typography, Button } from '../Components';
 import Theme from '../Theme/Theme';
 import ProfiPict from '../Assets/Images/Profile.png';
 
-export default function ProfilePage() {
+export default function ProfilePage(props) {
+  const { navigation } = props;
   const MenuItems = [
-    { name: 'Notifications', icon: 'notifications-active' },
-    { name: 'My Bookings', icon: 'perm-contact-calendar' },
-    { name: 'My Plan', icon: 'check-circle' },
-    { name: 'Addresses', icon: 'map' },
+    { name: 'Notifications', icon: 'notifications-active', action: () => {} },
+    {
+      name: 'My Bookings',
+      icon: 'perm-contact-calendar',
+      action: () => {
+        navigation.navigate('Calendar');
+      },
+    },
+    {
+      name: 'My Plan',
+      icon: 'check-circle',
+      action: () => navigation.navigate('Plan'),
+    },
+    { name: 'Addresses', icon: 'map', action: () => {} },
   ];
   const ShareItems = [
     { name: 'Facebook', icon: 'facebook', color: 'blue' },
@@ -43,12 +54,14 @@ export default function ProfilePage() {
           <Block column>
             {MenuItems.map(item => (
               <Block
+                key={item.name}
                 left
                 row
                 margin={[1, 0]}
                 style={{ backgroundColor: 'white' }}
               >
                 <Button
+                  onPress={() => item.action()}
                   margin={0}
                   padding={[5, 20]}
                   block
@@ -72,7 +85,12 @@ export default function ProfilePage() {
           </Typography>
           <Block column>
             {ShareItems.map(item => (
-              <Block row margin={[1, 0]} style={{ backgroundColor: 'white' }}>
+              <Block
+                key={item.name}
+                row
+                margin={[1, 0]}
+                style={{ backgroundColor: 'white' }}
+              >
                 <Button
                   margin={0}
                   padding={[5, 20]}
