@@ -2,7 +2,9 @@
 
 This is a personal collection of Pinterest / Dribble projects implemented using ReactJS & React-Native for learning purposes and skills improvement. Each one of the examples are based on a custom React boilerplate with some custome components for simplifying development process:
 
-**NOTE:** Project Name contains a link to original Pinterest /  Dribbble project ("All rights reserved to the author of original article")
+[React-Native Boilerplate](https://github.com/ferranrt/RNTemplate.git)
+
+**NOTE:** Project Name contains a link to original Pinterest / Dribbble project ("All rights reserved to the author of original article")
 
 | Project Name                                                            | Description                                                                                                                                                   | Preview                                | Notes |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----- |
