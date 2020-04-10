@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RNTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTemplateTests.m */; };
+		00E356F31AD99517003FC87E /* MateShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MateShopTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* RNTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTemplateTests.m */; };
-		39CD8F0599B7108697E682F0 /* libPods-RNTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C7EC3B0D86780E89DA7D0 /* libPods-RNTemplate.a */; };
-		5DAAF3DEBB48A4EC966EDC39 /* libPods-RNTemplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F56D46FE1AC5062127DDF2 /* libPods-RNTemplate-tvOS.a */; };
-		AF75FDD120B3EF89721C84C8 /* libPods-RNTemplate-RNTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 954193090A067F320CE7E098 /* libPods-RNTemplate-RNTemplateTests.a */; };
-		C824D1A4D91785A6049785BB /* libPods-RNTemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97246E0AE12FDCDAACC92C12 /* libPods-RNTemplate-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MateShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MateShopTests.m */; };
+		39CD8F0599B7108697E682F0 /* libPods-MateShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C7EC3B0D86780E89DA7D0 /* libPods-MateShop.a */; };
+		5DAAF3DEBB48A4EC966EDC39 /* libPods-MateShop-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F56D46FE1AC5062127DDF2 /* libPods-MateShop-tvOS.a */; };
+		AF75FDD120B3EF89721C84C8 /* libPods-MateShop-MateShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 954193090A067F320CE7E098 /* libPods-MateShop-MateShopTests.a */; };
+		C824D1A4D91785A6049785BB /* libPods-MateShop-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97246E0AE12FDCDAACC92C12 /* libPods-MateShop-tvOSTests.a */; };
 		B647FFFCBB754B7DB9417046 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7873D76A7D5845748873DC82 /* AntDesign.ttf */; };
 		3DA2C1289809482BA76DE5E5 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66BD595C91FB4085BCF8AAD3 /* Entypo.ttf */; };
 		BAC8DCEADA3848FCBD8D1174 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F91C895B35F340A8A6ED954C /* EvilIcons.ttf */; };
@@ -61,43 +61,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RNTemplate;
+			remoteInfo = MateShop;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "RNTemplate-tvOS";
+			remoteInfo = "MateShop-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* RNTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MateShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MateShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RNTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTemplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RNTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNTemplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNTemplate/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MateShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MateShopTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MateShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MateShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MateShop/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MateShop/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNTemplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNTemplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNTemplate/main.m; sourceTree = "<group>"; };
-		231C7EC3B0D86780E89DA7D0 /* libPods-RNTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		287E6BB1ABF39683C188E955 /* Pods-RNTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		2CC39645CF3D30D8CBD65768 /* Pods-RNTemplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-tvOSTests/Pods-RNTemplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* RNTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* RNTemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNTemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D3AA4FC87F2FD0AB1E5AD1D /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		4E34909E02805BA75E76F40C /* Pods-RNTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-tvOS/Pods-RNTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		527BDA5C3F4C2E6854B0B969 /* Pods-RNTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		53F56D46FE1AC5062127DDF2 /* libPods-RNTemplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		762988C5499FA090CB65AD13 /* Pods-RNTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-tvOS/Pods-RNTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		954193090A067F320CE7E098 /* libPods-RNTemplate-RNTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate-RNTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97246E0AE12FDCDAACC92C12 /* libPods-RNTemplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2354BC109D13CC54827BB20 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA5D88B294A125C059908184 /* Pods-RNTemplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-tvOSTests/Pods-RNTemplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MateShop/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MateShop/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MateShop/main.m; sourceTree = "<group>"; };
+		231C7EC3B0D86780E89DA7D0 /* libPods-MateShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MateShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287E6BB1ABF39683C188E955 /* Pods-MateShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop.release.xcconfig"; path = "Target Support Files/Pods-MateShop/Pods-MateShop.release.xcconfig"; sourceTree = "<group>"; };
+		2CC39645CF3D30D8CBD65768 /* Pods-MateShop-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MateShop-tvOSTests/Pods-MateShop-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MateShop-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MateShop-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MateShop-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MateShop-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3AA4FC87F2FD0AB1E5AD1D /* Pods-MateShop-MateShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-MateShopTests.release.xcconfig"; path = "Target Support Files/Pods-MateShop-MateShopTests/Pods-MateShop-MateShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E34909E02805BA75E76F40C /* Pods-MateShop-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MateShop-tvOS/Pods-MateShop-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		527BDA5C3F4C2E6854B0B969 /* Pods-MateShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop.debug.xcconfig"; path = "Target Support Files/Pods-MateShop/Pods-MateShop.debug.xcconfig"; sourceTree = "<group>"; };
+		53F56D46FE1AC5062127DDF2 /* libPods-MateShop-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MateShop-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762988C5499FA090CB65AD13 /* Pods-MateShop-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MateShop-tvOS/Pods-MateShop-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		954193090A067F320CE7E098 /* libPods-MateShop-MateShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MateShop-MateShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97246E0AE12FDCDAACC92C12 /* libPods-MateShop-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MateShop-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2354BC109D13CC54827BB20 /* Pods-MateShop-MateShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-MateShopTests.debug.xcconfig"; path = "Target Support Files/Pods-MateShop-MateShopTests/Pods-MateShop-MateShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5D88B294A125C059908184 /* Pods-MateShop-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MateShop-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MateShop-tvOSTests/Pods-MateShop-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		7873D76A7D5845748873DC82 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -140,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF75FDD120B3EF89721C84C8 /* libPods-RNTemplate-RNTemplateTests.a in Frameworks */,
+				AF75FDD120B3EF89721C84C8 /* libPods-MateShop-MateShopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CD8F0599B7108697E682F0 /* libPods-RNTemplate.a in Frameworks */,
+				39CD8F0599B7108697E682F0 /* libPods-MateShop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAAF3DEBB48A4EC966EDC39 /* libPods-RNTemplate-tvOS.a in Frameworks */,
+				5DAAF3DEBB48A4EC966EDC39 /* libPods-MateShop-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,20 +164,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C824D1A4D91785A6049785BB /* libPods-RNTemplate-tvOSTests.a in Frameworks */,
+				C824D1A4D91785A6049785BB /* libPods-MateShop-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RNTemplateTests */ = {
+		00E356EF1AD99517003FC87E /* MateShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RNTemplateTests.m */,
+				00E356F21AD99517003FC87E /* MateShopTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RNTemplateTests;
+			path = MateShopTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -188,7 +188,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RNTemplate */ = {
+		13B07FAE1A68108700A75B9A /* MateShop */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -199,7 +199,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = RNTemplate;
+			name = MateShop;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -207,10 +207,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				231C7EC3B0D86780E89DA7D0 /* libPods-RNTemplate.a */,
-				954193090A067F320CE7E098 /* libPods-RNTemplate-RNTemplateTests.a */,
-				53F56D46FE1AC5062127DDF2 /* libPods-RNTemplate-tvOS.a */,
-				97246E0AE12FDCDAACC92C12 /* libPods-RNTemplate-tvOSTests.a */,
+				231C7EC3B0D86780E89DA7D0 /* libPods-MateShop.a */,
+				954193090A067F320CE7E098 /* libPods-MateShop-MateShopTests.a */,
+				53F56D46FE1AC5062127DDF2 /* libPods-MateShop-tvOS.a */,
+				97246E0AE12FDCDAACC92C12 /* libPods-MateShop-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RNTemplate */,
+				13B07FAE1A68108700A75B9A /* MateShop */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RNTemplateTests */,
+				00E356EF1AD99517003FC87E /* MateShopTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C3F7A5072A5A453F0EC2929B /* Pods */,
@@ -241,10 +241,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RNTemplate.app */,
-				00E356EE1AD99517003FC87E /* RNTemplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* RNTemplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* RNTemplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MateShop.app */,
+				00E356EE1AD99517003FC87E /* MateShopTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MateShop-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MateShop-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,14 +252,14 @@
 		C3F7A5072A5A453F0EC2929B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				527BDA5C3F4C2E6854B0B969 /* Pods-RNTemplate.debug.xcconfig */,
-				287E6BB1ABF39683C188E955 /* Pods-RNTemplate.release.xcconfig */,
-				C2354BC109D13CC54827BB20 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */,
-				2D3AA4FC87F2FD0AB1E5AD1D /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */,
-				762988C5499FA090CB65AD13 /* Pods-RNTemplate-tvOS.debug.xcconfig */,
-				4E34909E02805BA75E76F40C /* Pods-RNTemplate-tvOS.release.xcconfig */,
-				EA5D88B294A125C059908184 /* Pods-RNTemplate-tvOSTests.debug.xcconfig */,
-				2CC39645CF3D30D8CBD65768 /* Pods-RNTemplate-tvOSTests.release.xcconfig */,
+				527BDA5C3F4C2E6854B0B969 /* Pods-MateShop.debug.xcconfig */,
+				287E6BB1ABF39683C188E955 /* Pods-MateShop.release.xcconfig */,
+				C2354BC109D13CC54827BB20 /* Pods-MateShop-MateShopTests.debug.xcconfig */,
+				2D3AA4FC87F2FD0AB1E5AD1D /* Pods-MateShop-MateShopTests.release.xcconfig */,
+				762988C5499FA090CB65AD13 /* Pods-MateShop-tvOS.debug.xcconfig */,
+				4E34909E02805BA75E76F40C /* Pods-MateShop-tvOS.release.xcconfig */,
+				EA5D88B294A125C059908184 /* Pods-MateShop-tvOSTests.debug.xcconfig */,
+				2CC39645CF3D30D8CBD65768 /* Pods-MateShop-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -309,9 +309,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RNTemplateTests */ = {
+		00E356ED1AD99517003FC87E /* MateShopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTemplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MateShopTests" */;
 			buildPhases = (
 				89658CAAF00263D07562DF02 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -323,14 +323,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RNTemplateTests;
-			productName = RNTemplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* RNTemplateTests.xctest */;
+			name = MateShopTests;
+			productName = MateShopTests;
+			productReference = 00E356EE1AD99517003FC87E /* MateShopTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RNTemplate */ = {
+		13B07F861A680F5B00A75B9A /* MateShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNTemplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MateShop" */;
 			buildPhases = (
 				90F9414C9929F96094AE0925 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -343,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = RNTemplate;
-			productName = RNTemplate;
-			productReference = 13B07F961A680F5B00A75B9A /* RNTemplate.app */;
+			name = MateShop;
+			productName = MateShop;
+			productReference = 13B07F961A680F5B00A75B9A /* MateShop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* RNTemplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* MateShop-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNTemplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MateShop-tvOS" */;
 			buildPhases = (
 				05D8A081E847D8CDE78DB253 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -363,14 +363,14 @@
 			);
 			dependencies = (
 			);
-			name = "RNTemplate-tvOS";
-			productName = "RNTemplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* RNTemplate-tvOS.app */;
+			name = "MateShop-tvOS";
+			productName = "MateShop-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MateShop-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* RNTemplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* MateShop-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNTemplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MateShop-tvOSTests" */;
 			buildPhases = (
 				7639673DD7C8B7FD5218F075 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -382,9 +382,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "RNTemplate-tvOSTests";
-			productName = "RNTemplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* RNTemplate-tvOSTests.xctest */;
+			name = "MateShop-tvOSTests";
+			productName = "MateShop-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MateShop-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -413,7 +413,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNTemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MateShop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -426,10 +426,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RNTemplate */,
-				00E356ED1AD99517003FC87E /* RNTemplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* RNTemplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* RNTemplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* MateShop */,
+				00E356ED1AD99517003FC87E /* MateShopTests */,
+				2D02E47A1E0B4A5D006451C7 /* MateShop-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MateShop-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -531,7 +531,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTemplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MateShop-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -567,7 +567,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTemplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MateShop-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -589,7 +589,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTemplate-RNTemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MateShop-MateShopTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -611,7 +611,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNTemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MateShop-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -663,7 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RNTemplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MateShopTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* RNTemplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MateShopTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,12 +698,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RNTemplate */;
+			target = 13B07F861A680F5B00A75B9A /* MateShop */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* RNTemplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* MateShop-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -715,7 +715,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = RNTemplate;
+			path = MateShop;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -723,14 +723,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2354BC109D13CC54827BB20 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = C2354BC109D13CC54827BB20 /* Pods-MateShop-MateShopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RNTemplateTests/Info.plist;
+				INFOPLIST_FILE = MateShopTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -740,17 +740,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MateShop.app/MateShop";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D3AA4FC87F2FD0AB1E5AD1D /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 2D3AA4FC87F2FD0AB1E5AD1D /* Pods-MateShop-MateShopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RNTemplateTests/Info.plist;
+				INFOPLIST_FILE = MateShopTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -760,13 +760,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MateShop.app/MateShop";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527BDA5C3F4C2E6854B0B969 /* Pods-RNTemplate.debug.xcconfig */;
+			baseConfigurationReference = 527BDA5C3F4C2E6854B0B969 /* Pods-MateShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -776,7 +776,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = RNTemplate/Info.plist;
+				INFOPLIST_FILE = MateShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -784,7 +784,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RNTemplate;
+				PRODUCT_NAME = MateShop;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -793,12 +793,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287E6BB1ABF39683C188E955 /* Pods-RNTemplate.release.xcconfig */;
+			baseConfigurationReference = 287E6BB1ABF39683C188E955 /* Pods-MateShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = RNTemplate/Info.plist;
+				INFOPLIST_FILE = MateShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -806,7 +806,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RNTemplate;
+				PRODUCT_NAME = MateShop;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -814,7 +814,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 762988C5499FA090CB65AD13 /* Pods-RNTemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 762988C5499FA090CB65AD13 /* Pods-MateShop-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -825,14 +825,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MateShop-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MateShop-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -842,7 +842,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E34909E02805BA75E76F40C /* Pods-RNTemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4E34909E02805BA75E76F40C /* Pods-MateShop-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -853,14 +853,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MateShop-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MateShop-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -870,7 +870,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5D88B294A125C059908184 /* Pods-RNTemplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EA5D88B294A125C059908184 /* Pods-MateShop-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -880,24 +880,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MateShop-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MateShop-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate-tvOS.app/RNTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MateShop-tvOS.app/MateShop-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC39645CF3D30D8CBD65768 /* Pods-RNTemplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 2CC39645CF3D30D8CBD65768 /* Pods-MateShop-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -907,17 +907,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MateShop-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MateShop-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate-tvOS.app/RNTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MateShop-tvOS.app/MateShop-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1038,7 +1038,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTemplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MateShopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1047,7 +1047,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNTemplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MateShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1056,7 +1056,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNTemplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MateShop-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1065,7 +1065,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNTemplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MateShop-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1074,7 +1074,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNTemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MateShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
