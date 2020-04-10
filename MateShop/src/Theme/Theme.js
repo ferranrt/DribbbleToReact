@@ -8,14 +8,14 @@ const device = {
 
 const colors = {
   ACCENT: Color.rgb(220, 79, 137),
-  PRIMARY: Color.rgb(92, 77, 177),
+  PRIMARY: Color.rgb(106, 214, 85),
   SECONDARY: Color.rgb(223, 222, 255),
   TERTIARY: Color.rgb(223, 222, 144),
   DANGER: Color.rgb(183, 0, 0),
   WARNING: Color.rgb(255, 191, 103),
   SUCCESS: Color.rgb(16, 213, 146),
   BLACK: Color.rgb(23, 21, 21),
-  WHITE: Color.rgb(247, 247, 247),
+  WHITE: Color.rgb(249, 249, 249),
   GRAY: Color.rgb(112, 112, 112),
   DARKGRAY: Color.rgb(64, 64, 64),
   TRANSPARENT: Color.rgb(0, 0, 0).fade(1),

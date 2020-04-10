@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { TextInput, StyleSheet, View, Text } from 'react-native';
+import { TextInput, StyleSheet, View } from 'react-native';
 import Theme from '../Theme/Theme';
 import Typography from './Typography';
 
@@ -126,7 +126,7 @@ export default function Input(props) {
   };
 
   const styles = StyleSheet.create({
-    root: {},
+    root: { flex: 1 },
     defaultContainerStyle: {
       margin: 0,
       paddingHorizontal: 15,
@@ -149,7 +149,7 @@ export default function Input(props) {
       shadowOffset: { width: 0, height: 0 },
       shadowOpacity: 0.1,
       shadowRadius: 1,
-      elevation: 2,
+      elevation: 5,
     },
   });
 
