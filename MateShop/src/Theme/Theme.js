@@ -11,7 +11,7 @@ const colors = {
   PRIMARY: Color.rgb(106, 214, 85),
   SECONDARY: Color.rgb(223, 222, 255),
   TERTIARY: Color.rgb(223, 222, 144),
-  DANGER: Color.rgb(183, 0, 0),
+  DANGER: Color.rgb(255, 134, 128),
   WARNING: Color.rgb(255, 191, 103),
   SUCCESS: Color.rgb(16, 213, 146),
   BLACK: Color.rgb(23, 21, 21),

@@ -222,5 +222,5 @@ const styles = StyleSheet.create({
   black: { color: Theme.colors.BLACK },
   white: { color: Theme.colors.WHITE },
   grey: { color: Theme.colors.GREY },
-  dark: { color: Theme.colors.DARKGREY },
+  dark: { color: Theme.colors.DARKGRAY },
 });

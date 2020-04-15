@@ -155,7 +155,6 @@ export default function Button(props) {
     gray && styles.gray,
     dark && styles.dark,
     debug && { borderWidth: 1, borderColor: 'black' },
-
     style,
   ];
   const fabStyle = [
@@ -165,9 +164,9 @@ export default function Button(props) {
       height: fabSize,
       width: fabSize,
       ...styles.shadow,
+      style,
     },
   ];
-  console.log(buttonStyles);
   if (fab) {
     return (
       <TouchableOpacity
